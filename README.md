@@ -19,7 +19,7 @@ Algorithmic Bitcoin Trading Bot for Bybit Exchange Writing on Java
     * and i modified vwap and add 2 line more from vwap, to get overbought and oversell price. (why not just use rsi ? just doing research urself why i dont use rsi for that ^_^ )
   - using Donchian Channel for Signal entry.
    * donchian will give line for get what high price and low price on period last candle, on this bot i using 50 candle period.
-   * donchial used too for detect sideways trends.
+   * donchian used too for detect sideways trends.
   - using 3 sma : SMA25,SMA50,SMA200 
    * SMA will use to make sure signal from Donchian is valid or not.
    
